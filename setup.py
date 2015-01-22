@@ -17,6 +17,7 @@ setup(
     install_requires=[
         'Django>=1.2',
         'django-mptt>=0.5',
+        'simplejson>=3.6.5',
     ],
     classifiers = [
         "Development Status :: 3 - Alpha",
