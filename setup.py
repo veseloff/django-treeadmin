@@ -15,7 +15,7 @@ setup(
     zip_safe=False,
     include_package_data = True,
     install_requires=[
-        'Django>=1.2',
+        'Django>=1.7',
         'django-mptt>=0.5',
         'simplejson>=3.6.5',
     ],
