@@ -146,7 +146,6 @@ class ChangeList(main.ChangeList):
         super(ChangeList, self).get_results(request)
 
         opts = self.model_admin.opts
-        label = opts.app_label + '.' + opts.get_change_permission()
         for item in self.result_list:
             if self.model_admin.enable_object_permissions:
                 item.feincms_editable = self.model_admin.has_change_permission(request, item)
